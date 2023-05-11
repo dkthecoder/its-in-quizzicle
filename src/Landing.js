@@ -2,22 +2,19 @@ import './Landing.css';
 
 function Landing() {
   return (
-    <div class="container">
+    <div class="container position-absolute top-50 start-50 translate-middle">
 
-      <div class="b-example-divider"></div>
-
-      <div class="container my-5">
+      <div class="container my-5 shadow-lg p-3 mb-5 bg-body rounded">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
-          <h1 class="text-body-emphasis">Jumbotron with icon</h1>
+          <h1 class="text-body-emphasis">its-in-quizzicle</h1>
           <p class="col-lg-8 mx-auto fs-5 text-muted">
             This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a responsive <code>.col-*</code> class, and a customized call to action.
           </p>
         </div>
       </div>
 
-      <div class="b-example-divider"></div>
 
-      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5 shadow-lg p-3 mb-5 bg-body rounded">
         <div class="row align-items-center g-lg-5 py-5">
           <div class="col-lg-7 text-center text-lg-start">
             <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Vertically centered hero sign-up form</h1>
@@ -47,7 +44,7 @@ function Landing() {
         </div>
       </div>
 
-      <div class="b-example-divider"></div>
+
 
     </div>
   );
