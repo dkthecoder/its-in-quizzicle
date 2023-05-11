@@ -1,6 +1,6 @@
-import './App.css';
+import './Quiz.css';
 
-function App() {
+function Quiz() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default Quiz;
