@@ -1,6 +1,8 @@
-import './Footer.css';
+import BoolQuiz from './BoolQuiz';
+import MultiQuiz from './MultiQuiz';
 
-function Footer() {
+function QuizFrame() {
+
     return (
         <div class="d-flex flex-column h100">
             <div class="b-example-divider"></div>
@@ -12,6 +14,7 @@ function Footer() {
             <div class="b-example-divider"></div>
         </div>
     );
+
 }
 
-export default Footer;
+export default QuizFrame;
